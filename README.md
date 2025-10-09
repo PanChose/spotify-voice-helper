@@ -1,2 +1,5 @@
-# spotify-voice-helper
-brings the a voice helper to spotify
+spotify-voice-helper
+# Commands:
+  # Music - starts playing music. Also works as Unpause
+  # Pause or Stop - pauses music
+  # Volume {number 0-100} - sets volume
