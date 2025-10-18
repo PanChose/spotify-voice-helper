@@ -5,8 +5,8 @@ from spotipy.oauth2 import SpotifyOAuth
 import time
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
-    client_id="50bed54d4bde4cd5b897be63f20f0e48",
-    client_secret="69ec6486a53c4edc98a44bef0371da0e",
+    client_id="your id",
+    client_secret="your client secret",
     redirect_uri="http://127.0.0.1:8888/callback",
     scope="user-modify-playback-state,user-read-playback-state"
 ))
@@ -104,3 +104,4 @@ stop_listening = recognizer.listen_in_background(mic, callback)
 
 while True:
     time.sleep(0.0001)
+
